@@ -2,10 +2,10 @@
 A basic Python script to create either a TXT annotation file used to generate a TFRecords dataset, or a CSV file to use it directly as a Filename/label dataset's annotation file.
 # How to use
 There are four arguments you can add from the command line interface.
--n: name of the file that will be generated
--p: path to the images folder
--t: specify what type of format the file generated will have (TXT or CSV)
--i: choose whether or not to add the images path (setted in False per default)
+- -n: name of the file that will be generated
+- -p: path to the images folder
+- -t: specify what type of format the file generated will have (TXT or CSV)
+- -i: choose whether or not to add the images path (setted in False per default)
 
 Given an image dataset located in a folder of your computer, the script can generate four different types of annotation files.
 1. CSV annotation file without specifying the images path
