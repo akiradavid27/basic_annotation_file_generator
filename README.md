@@ -1,5 +1,5 @@
 # basic_annotation_file_generator
-A basic Python script to create either a TXT annotation file used to generate a TFRecords dataset, or a CSV file to use it directly as a Filename/label annotation file dataset.
+A basic Python script to create either a TXT annotation file used to generate a TFRecords dataset, or a CSV file to use it directly as a Filename/label dataset's annotation file.
 # How to use
 There are four arguments you can add from the command line interface.
 -n: name of the file that will be generated
