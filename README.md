@@ -14,6 +14,6 @@ Given an image dataset located in a folder of your computer, the script can gene
 4. TXT annotation file specifying the images path
 
 # Where to use
-You can use this script to create a TXT annotation file needed when generating a TFRecords dataset, format mainly found in datasets used to train Deep Learning models. A great example is emedvedev/attention-ocr repository.
+You can use this script to create a TXT annotation file needed when generating a TFRecords dataset, format mainly found in datasets used to train Deep Learning models. A great example is github.com/emedvedev/attention-ocr repository.
 
-You can also use this script to create a dataset's annotation file in CSV format. The CSV file has the format of (filename,label). This type of file is also used when training Deep Learning models. An example using this type of annotation file is rsommerfeld/trocr repository.
+You can also use this script to create a dataset's annotation file in CSV format. The CSV file has the format of (filename,label). This type of file is also used when training Deep Learning models. An example using this type of annotation file is github.com/rsommerfeld/trocr repository.
