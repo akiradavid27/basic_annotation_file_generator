@@ -13,6 +13,9 @@ Given an image dataset located in a folder of your computer, the script can gene
 3. TXT annotation file without specifying the images path
 4. TXT annotation file specifying the images path
 
+An example could be:
+- python anno_file_gen.py -n annotations-training -p ./train -t txt -i True
+
 # Where to use
 You can use this script to create a TXT annotation file needed when generating a TFRecords dataset, format mainly found in datasets used to train Deep Learning models. A great example is [emedvedev/attention-ocr](github.com/emedvedev/attention-ocr) repository.
 
